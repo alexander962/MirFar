@@ -1,0 +1,247 @@
+.header {
+
+}
+
+.header a {
+  transition: color .2s ease-out .1s;
+}
+
+.header__line {
+  border-bottom: 1px solid #EDEDED;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1560px;
+  margin: 0 auto;
+}
+
+/*header top*/
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__top__content {
+  display: flex;
+}
+
+.navigation-site {
+
+}
+
+.city {
+  position: relative;
+  padding-left: 27px;
+}
+
+.header .city:before {
+  content: '';
+  position: absolute;
+  background-image: url("/assets/svg/city-logo.svg");
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 17px;
+  left: 0;
+  top: 0;
+}
+
+.country-block{
+  position: relative;
+}
+.country__img{
+  display: flex;
+}
+.country__img img{
+  width: 20px;
+}
+.country__text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  color: #BABABA;
+  margin-bottom: 5px;
+}
+.country__current{
+  display: flex;
+  align-items: center;
+}
+.country__name{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #E35910;
+  border-bottom: 1px dashed #E35910;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.country__name:hover{
+  border-bottom: 1px dashed transparent;
+}
+
+/*header center*/
+
+.header__center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__center__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__center_logo {
+  margin-right: 63px;
+}
+
+.header__center .search-block {
+  max-width: 780px;
+}
+
+.header__center .search-block input[type=text] {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #a6a6a6;
+  padding: 13px 16px;
+  border: none;
+}
+
+.button {
+  -webkit-appearance: none;
+}
+
+.button.icon {
+  text-indent: -9999px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background: #f7f7f7;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  box-shadow: none;
+  color: #383838;
+  height: auto;
+  font-size: 12px;
+  padding: 8px 13px 7px;
+  width: 100%;
+}
+
+.header__center .search-block .form-control1 {
+  position: relative;
+}
+
+.header__center .search-block .button.icon {
+  position: absolute;
+  background-image: url("assets/svg/search-icon.svg");
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  padding: 0;
+  right: 21px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.icons-list {
+  display: flex;
+}
+
+.header__center .item-ico {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+
+.header__center .item-ico span {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E35910;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  border-radius: 50%;
+  right: 0;
+  top: 0;
+}
+
+.header__center .item-ico.basket {
+  background-image: url("assets/svg/basket-icon.svg");
+  margin-right: 40px;
+}
+
+.header__center .item-ico.delay {
+  background-image: url("assets/svg/like-icon.svg");
+  background-position: 0 50%;
+}
+
+/*header down*/
+
+.header__down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__down_catalog {
+
+}
+
+.header__down ul.menu {
+  margin: 0 -20px;
+}
+
+ul.menu {
+  text-align: justify;
+  list-style-type: none;
+  font-size: 0;
+  line-height: 0;
+  zoom: 1;
+}
+
+.header__down ul.menu li {
+  padding: 0 20px;
+  line-height: 1;
+}
+
+ul.menu li, ul.mini-menu li {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  line-height: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header__down ul.menu li a {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: #5b5b5b;
+}
