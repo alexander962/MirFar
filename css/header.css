@@ -8,7 +8,7 @@
 
 .wrapper {
   width: 100%;
-  max-width: 1560px;
+  max-width: 1530px;
   margin: 0 auto;
 }
 
@@ -16,19 +16,62 @@
 .header__top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
 }
 
 .header__top__content {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 760px;
 }
 
 .navigation-site {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 484px;
+}
 
+.navigation-site a {
+  font: 400 16px/18px Ubuntu;
+  text-decoration: none;
+  color: #5B5B5B;
+}
+
+.header__top__content .phone-item a {
+  font: 400 20px/23px Ubuntu;
+  transition: opacity .2s ease .1s;
+  color: #222222;
+}
+
+.header__top__content .phone-item a:hover {
+  color: #DF570E;
+}
+
+.header__top__content .store {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header__top__content .store span {
+  position: absolute;
+  font: 400  11px/13px 'Ubuntu';
+  color: #728090;
+  bottom: -14px;
 }
 
 .city {
   position: relative;
   padding-left: 27px;
+}
+
+.city .city-name {
+  font: 500 16px/18px 'Ubuntu';
+  color: #E35910;
 }
 
 .header .city:before {
@@ -42,28 +85,25 @@
   top: 0;
 }
 
-.country-block{
+.country-block {
   position: relative;
 }
-.country__img{
+.country__img {
   display: flex;
 }
-.country__img img{
+.country__img img {
   width: 20px;
 }
-.country__text{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 11px;
-  color: #BABABA;
-  margin-bottom: 5px;
+.country__text {
+  font: 400 11px/13px 'Ubuntu';
+  color: #728090;
+  margin-bottom: 2px;
 }
-.country__current{
+.country__current {
   display: flex;
   align-items: center;
 }
-.country__name{
+.country__name {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
@@ -72,7 +112,7 @@
   margin-left: 5px;
   cursor: pointer;
 }
-.country__name:hover{
+.country__name:hover {
   border-bottom: 1px dashed transparent;
 }
 
@@ -82,11 +122,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0 18px;
 }
 
 .header__center__left {
   display: flex;
   align-items: center;
+  width: 100%;
+  max-width: 1040px;
 }
 
 .header__center_logo {
@@ -94,18 +137,17 @@
 }
 
 .header__center .search-block {
+  width: 100%;
   max-width: 780px;
 }
 
 .header__center .search-block input[type=text] {
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  color: #a6a6a6;
-  padding: 13px 16px;
+  font: 400 12px/14px Ubuntu;
+  color: #A6A6A6;
+  padding: 12px 12px 12px 20px;
   border: none;
+  background: #F8F8F8;
+  width: 100%;
 }
 
 .button {
@@ -117,22 +159,6 @@
   background: none;
   border: 0;
   cursor: pointer;
-}
-
-input[type=text] {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  background: #f7f7f7;
-  border: 1px solid #e5e5e5;
-  border-radius: 2px;
-  box-shadow: none;
-  color: #383838;
-  height: auto;
-  font-size: 12px;
-  padding: 8px 13px 7px;
-  width: 100%;
 }
 
 .header__center .search-block .form-control1 {
@@ -154,6 +180,7 @@ input[type=text] {
 
 .icons-list {
   display: flex;
+  align-items: center;
 }
 
 .header__center .item-ico {
@@ -164,23 +191,29 @@ input[type=text] {
   background-position: 0 100%;
 }
 
+.header__center .item-ico:first-child {
+  margin-top: -10px;
+}
+
 .header__center .item-ico span {
   position: absolute;
-  width: 21px;
-  height: 21px;
+  /*width: 18px;*/
+  /*height: 18px;*/
+  padding: 3px 7px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #E35910;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  color: #fff;
+  font: 400 12px/14px Ubuntu;
+  color: #FFFFFF;
   border-radius: 50%;
   right: 0;
-  top: 0;
+  top: -2px;
+}
+
+.header__center .item-ico:first-child span {
+  padding: 2px 5px;
+  top: 3px;
 }
 
 .header__center .item-ico.basket {
@@ -197,28 +230,29 @@ input[type=text] {
 
 .header__down {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .header__down_catalog {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #EDEDED;
+  padding: 16px 40px 21px 0;
+  font: 700 20px/23px 'Ubuntu';
+  color: #222222;
+}
 
+.header__down_catalog span {
+  margin-right: 40px;
 }
 
 .header__down ul.menu {
-  margin: 0 -20px;
-}
-
-ul.menu {
-  text-align: justify;
-  list-style-type: none;
-  font-size: 0;
-  line-height: 0;
-  zoom: 1;
+  position: relative;
+  margin-left: 5px;
 }
 
 .header__down ul.menu li {
-  padding: 0 20px;
+  padding: 0 35px;
   line-height: 1;
 }
 
@@ -234,10 +268,87 @@ li {
 }
 
 .header__down ul.menu li a {
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 22px;
+  font: 400 20px/23px Ubuntu;
   color: #5b5b5b;
+}
+
+.header__down ul.menu li a:hover {
+  color: #DF570E;
+}
+
+/*Выпадающее меню услуг*/
+
+.header__down ul.menu .menu__drop-down {
+  display: none;
+  position: absolute;
+  top: 24px;
+  left: -6px;
+  width: calc(100vw - 274px);
+  max-width: 1255px;
+  padding-top: 18px;
+  transition: .3s ease;
+}
+
+.header__down ul.menu .menu__drop-down .menu__drop-down__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 28px 0 16px 20px;
+  border: 1px solid #EDEDED;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.header__down ul.menu .menu__drop-down .menu__drop-down__wrapper .menu__drop-down__main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1080px;
+}
+
+.header__down ul.menu div.menu_services:hover .menu__drop-down {
+  display: block;
+  transition: .3s ease;
+}
+
+.menu__drop-down__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__drop-down__list:nth-child(2) {
+  margin-top: -5px;
+}
+
+.header__down ul.menu .menu__drop-down .menu__drop-down__list li {
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.header__down ul.menu .menu__drop-down .menu__drop-down__list li a {
+  display: block;
+  font: 400 14px/16px 'Ubuntu';
+  color: #5B5B5B;
+}
+
+.header__down ul.menu .menu__drop-down .menu__drop-down__list li a:hover {
+  color: #DF570E;
+}
+
+.header__down ul.menu .menu__drop-down .menu__drop-down__list li.menu__drop-down__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header__down ul.menu .menu__drop-down .menu__drop-down__list:nth-child(2) li.menu__drop-down__title{
+  margin-bottom: 16px;
+}
+
+.header__down ul.menu .menu__drop-down .menu__drop-down__list li.menu__drop-down__title img {
+  margin-right: 10px;
+}
+
+.header__down ul.menu .menu__drop-down .menu__drop-down__list li.menu__drop-down__title span {
+  font: 500 16px/18px 'Ubuntu';
+  color: #DF570E;
 }

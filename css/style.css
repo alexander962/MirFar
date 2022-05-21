@@ -3,3 +3,30 @@
 html.block {
   overflow: hidden;
 }
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity .2s ease .1s;
+}
+
+a:hover {
+  color: #DF570E;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
