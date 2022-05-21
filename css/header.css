@@ -1,7 +1,3 @@
-.header {
-
-}
-
 .header a {
   transition: color .2s ease-out .1s;
 }
@@ -145,7 +141,7 @@ input[type=text] {
 
 .header__center .search-block .button.icon {
   position: absolute;
-  background-image: url("assets/svg/search-icon.svg");
+  background-image: url("../assets/svg/search-icon.svg");
   background-repeat: no-repeat;
   height: 16px;
   width: 16px;
@@ -188,12 +184,12 @@ input[type=text] {
 }
 
 .header__center .item-ico.basket {
-  background-image: url("assets/svg/basket-icon.svg");
+  background-image: url("../assets/svg/basket-icon.svg");
   margin-right: 40px;
 }
 
 .header__center .item-ico.delay {
-  background-image: url("assets/svg/like-icon.svg");
+  background-image: url("../assets/svg/like-icon.svg");
   background-position: 0 50%;
 }
 
