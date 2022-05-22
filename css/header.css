@@ -116,6 +116,52 @@
   border-bottom: 1px dashed transparent;
 }
 
+@media screen and (max-width: 1550px) {
+  .header__top {
+    padding: 14px 24px;
+  }
+
+  .navigation-site {
+    max-width: 400px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .header__top__content .store {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navigation-site {
+    display: none;
+  }
+
+  .country-block {
+    display: none;
+  }
+
+  .header__top__content {
+    max-width: 100%;
+    flex-direction: row-reverse;
+  }
+
+  .header__top__content .phone-item a {
+    font: 400 14px/23px Ubuntu;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__top {
+    padding: 15px 15px;
+  }
+
+  .city .city-name {
+    font: 500 14px/18px 'Ubuntu';
+  }
+}
+
 /*header center*/
 
 .header__center {
@@ -226,6 +272,129 @@
   background-position: 0 50%;
 }
 
+.form-control1__down {
+  display: none;
+}
+
+.item-burger {
+  display: none;
+}
+
+@media screen and (max-width: 1550px) {
+  .header__center {
+    padding: 20px 24px 18px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header__center .search-block {
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__line:nth-child(2), .header__line:nth-child(3) {
+    border: none;
+  }
+
+  .header__center .search-block {
+    display: none;
+  }
+
+  .form-control1__down {
+    display: block;
+    position: relative;
+    width: calc(100% - 48px);
+    margin: 0 24px;
+  }
+
+  .form-control1__down .button.icon {
+    position: absolute;
+    background-image: url("../assets/svg/search-icon.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    padding: 0;
+    right: 21px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .form-control1__down input[type=text] {
+    font: 400 12px/14px Ubuntu;
+    color: #A6A6A6;
+    padding: 12px 12px 12px 20px;
+    border: none;
+    background: #F8F8F8;
+    width: 100%;
+  }
+
+  .header__center_logo {
+    margin-right: 0;
+  }
+
+  .header__center__left {
+     width: auto;
+     max-width: none;
+  }
+
+  .item-burger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__center_logo {
+    width: 110px;
+  }
+
+  .header__center_logo img {
+    width: 100%;
+  }
+
+  .form-control1__down {
+    width: calc(100% - 30px);
+    margin: 0 15px;
+  }
+
+  .header__center .item-ico.basket {
+    margin-right: 20px;
+  }
+
+  .header__center .item-ico.basket {
+    width: 35px;
+    margin-right: 20px;
+    background-size: contain;
+    margin-top: -14px;
+  }
+
+  .header__center .item-ico.delay {
+    width: 30px;
+    background-size: contain;
+  }
+
+  .header__center .item-ico span {
+    position: absolute;
+    padding: 3px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E35910;
+    font: 400 10px/100% Ubuntu;
+    color: #FFFFFF;
+    border-radius: 50%;
+    right: -6px;
+    top: 0;
+  }
+
+  .header__center .item-ico:first-child span {
+    padding: 2px 5px;
+    right: -3px;
+    top: 8px;
+  }
+}
+
 /*header down*/
 
 .header__down {
@@ -240,6 +409,7 @@
   padding: 16px 40px 21px 0;
   font: 700 20px/23px 'Ubuntu';
   color: #222222;
+  cursor: pointer;
 }
 
 .header__down_catalog span {
@@ -276,6 +446,52 @@ li {
   color: #DF570E;
 }
 
+@media screen and (max-width: 1550px) {
+  .header__down_catalog {
+    padding: 16px 40px 21px 24px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .header__down_catalog {
+    font: 700 18px/23px 'Ubuntu';
+  }
+
+  .header__down ul.menu li {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .header__down ul.menu li {
+    padding: 0 16px;
+  }
+
+  .header__down ul.menu li a {
+    font: 400 18px/23px Ubuntu;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .header__down ul.menu li {
+    padding: 0 14px;
+  }
+
+  .header__down ul.menu li a {
+    font: 400 17px/23px Ubuntu;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__down ul.menu {
+    display: none;
+  }
+
+  .header__down_catalog {
+    display: none;
+  }
+}
+
 /*Выпадающее меню услуг*/
 
 .header__down ul.menu .menu__drop-down {
@@ -293,7 +509,7 @@ li {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 28px 0 16px 20px;
+  padding: 28px 20px 16px;
   border: 1px solid #EDEDED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
 }
@@ -328,6 +544,7 @@ li {
   display: block;
   font: 400 14px/16px 'Ubuntu';
   color: #5B5B5B;
+  max-width: 248px;
 }
 
 .header__down ul.menu .menu__drop-down .menu__drop-down__list li a:hover {
@@ -351,4 +568,10 @@ li {
 .header__down ul.menu .menu__drop-down .menu__drop-down__list li.menu__drop-down__title span {
   font: 500 16px/18px 'Ubuntu';
   color: #DF570E;
+}
+
+@media screen and (max-width: 1550px) {
+  .header__down ul.menu .menu__drop-down {
+    width: 100%;
+  }
 }

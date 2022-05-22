@@ -84,6 +84,15 @@
               <span>0</span>
             </a>
           </div>
+
+          <div class="item-burger">
+            <img src="assets/svg/burger-icon.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="form-control1__down">
+          <input id="title-search-down" type="text" name="q" value="" size="40" class="text small_block" maxlength="50" autocomplete="off" placeholder="Поиск по сайту" />
+          <input name="s" type="submit" value="Поиск" class="button icon" />
         </div>
       </div>
     </div>
@@ -94,7 +103,7 @@
         <div class="header__down">
           <div class="header__down_catalog">
             <span>Каталог товаров</span>
-            <img src="assets/svg/catalog-search.svg" />
+            <img src="assets/svg/catalog-search.svg" class="header__down_catalog_img" />
           </div>
 
           <ul class="menu">
@@ -158,5 +167,400 @@
       </div>
     </div>
   </header>
+
+  <section class="catalog">
+    <div class="catalog__wrapper">
+      <div class="catalog__left">
+        <ul class="catalog__list">
+          <li class="catalog__list_item active">
+            <div class="catalog__list_icon">
+              <svg width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.5247 14.2889L1.86967 14.5167L5.42474 4.70092C5.79397 3.68134 6.07462 3.18726 6.49345 2.93668C6.70291 2.81136 6.95065 2.74478 7.26953 2.70778C7.58902 2.67071 7.97557 2.66372 8.46186 2.65502L8.46191 2.65502L8.71911 2.65018L8.71912 2.65024C12.0736 2.58403 23.4292 2.32133 28.6301 1.71655C29.1261 1.659 29.567 1.82105 29.9074 2.18604L29.9075 2.18607C30.2158 2.51608 30.3375 2.93924 30.2824 3.52688L30.2824 3.52694C29.8496 8.20146 28.1414 11.0853 24.9132 12.6208L24.9131 12.6208C21.9881 14.0133 18.0316 14.2001 13.5247 14.2889ZM29.944 2.15194C29.5927 1.77532 29.1362 1.6075 28.6244 1.66688L29.944 2.15194ZM1.02025 15.1246L1.02036 15.1248C1.09173 15.2237 1.20592 15.2827 1.32783 15.2827H1.32784H1.32785H1.32786H1.32787H1.32788H1.32789H1.3279H1.32791H1.32792H1.32794H1.32795H1.32796H1.32797H1.32798H1.32799H1.328H1.32801H1.32802H1.32803H1.32805H1.32806H1.32807H1.32808H1.32809H1.3281H1.32811H1.32812H1.32813H1.32815H1.32816H1.32817H1.32818H1.32819H1.3282H1.32821H1.32822H1.32823H1.32825H1.32826H1.32827H1.32828H1.32829H1.3283H1.32831H1.32832H1.32833H1.32835H1.32836H1.32837H1.32838H1.32839H1.3284H1.32841H1.32842H1.32844H1.32845H1.32846H1.32847H1.32848H1.32849H1.3285H1.32851H1.32852H1.32854H1.32855H1.32856H1.32857H1.32858H1.32859H1.3286H1.32862H1.32863H1.32864H1.32865H1.32866H1.32867H1.32868H1.32869H1.32871H1.32872H1.32873H1.32874H1.32875H1.32876H1.32877H1.32878H1.3288H1.32881H1.32882H1.32883H1.32884H1.32885H1.32886H1.32888H1.32889H1.3289H1.32891H1.32892H1.32893H1.32894H1.32896H1.32897H1.32898H1.32899H1.329H1.32901H1.32902H1.32903H1.32905H1.32906H1.32907H1.32908H1.32909H1.3291H1.32911H1.32913H1.32914H1.32915H1.32916H1.32917H1.32918H1.3292H1.32921H1.32922H1.32923H1.32924H1.32925H1.32926H1.32928H1.32929H1.3293H1.32931H1.32932H1.32933H1.32934H1.32936H1.32937H1.32938H1.32939H1.3294H1.32941H1.32943H1.32944H1.32945H1.32946H1.32947H1.32948H1.3295H1.32951H1.32952H1.32953H1.32954H1.32955H1.32956H1.32958H1.32959H1.3296H1.32961H1.32962H1.32963H1.32965H1.32966H1.32967H1.32968H1.32969H1.3297H1.32972H1.32973H1.32974H1.32975H1.32976H1.32977H1.32979H1.3298H1.32981H1.32982H1.32983H1.32984H1.32986H1.32987H1.32988H1.32989H1.3299H1.32991H1.32993H1.32994H1.32995H1.32996H1.32997H1.32998H1.33H1.33001H1.33002H1.33003H1.33004H1.33006H1.33007H1.33008H1.33009H1.3301H1.33011H1.33013H1.33014H1.33015H1.33016H1.33017H1.33019H1.3302H1.33021H1.33022H1.33023H1.33024H1.33026H1.33027H1.33028H1.33029H1.3303H1.33032H1.33033H1.33034H1.33035H1.33036H1.33037H1.33039H1.3304H1.33041H1.33042H1.33043H1.33045H1.33046H1.33047H1.33048H1.33049H1.3305H1.33052H1.33053H1.33054H1.33055H1.33056H1.33058H1.33059H1.3306H1.33061H1.33062H1.33064H1.33065H1.33066H1.33067H1.33068H1.3307H1.33071H1.33072H1.33073H1.33074H1.33076H1.33077H1.33078H1.33079H1.3308H1.33082H1.33083H1.33084H1.33085H1.33086H1.33088H1.33089H1.3309H1.33091H1.33092H1.33094H1.33095H1.33096H1.33097H1.33098H1.331H1.33101H1.33102H1.33103H1.33104H1.33106H1.33107H1.33108H1.33109H1.3311H1.33112H1.33113H1.33114H1.33115H1.33116H1.33118H1.33119H1.3312H1.33121H1.33122H1.33124H1.33125H1.33126H1.33127H1.33128H1.3313H1.33131H1.33132H1.33133H1.33134H1.33136H1.33137H1.33138H1.33139H1.33141H1.33142H1.33143H1.33144H1.33145H1.33147H1.33148H1.33149H1.3315H1.33151H1.33153H1.33154H1.33155H1.33156H1.33158H1.33159H1.3316H1.33161H1.33162H1.33164H1.33165H1.33166H1.33167H1.33169H1.3317H1.33171H1.33172H1.33173H1.33175H1.33176H1.33177H1.33178H1.33179H1.33181H1.33182H1.33183H1.33184H1.33186H1.33187H1.33188H1.33189H1.3319H1.33192H1.33193H1.33194H1.33195H1.33197H1.33198H1.33199H1.332H1.33202H1.33203H1.33204H1.33205H1.33206H1.33208H1.33209H1.3321H1.33211H1.33213H1.33214H1.33215H1.33216H1.33217H1.33219H1.3322H1.33221H1.33222H1.33224H1.33225H1.33226H1.33227H1.33229H1.3323H1.33231H1.33232H1.33233H1.33235H1.33236H1.33237H1.33238H1.3324H1.33241H1.33242H1.33243H1.33245H1.33246H1.33247H1.33248H1.33249H1.33251H1.33252H1.33253H1.33254H1.33256H1.33257H1.33258H1.33259H1.33261H1.33262H1.33263H1.33264H1.33266H1.33267H1.33268H1.33269H1.33271H1.33272H1.33273H1.33274H1.33275H1.33277H1.33278H1.33279H1.3328H1.33282H1.33283H1.33284H1.33285H1.33287H1.33288H1.33289H1.3329H1.33292H1.33293H1.33294H1.33295H1.33297H1.33298H1.33299H1.333H1.33302H1.33303H1.33304H1.33305H1.33307H1.33308H1.33309H1.3331H1.33312H1.33313H1.33314H1.33315H1.33316H1.33318H1.33319H1.3332H1.33321H1.33323H1.33324H1.33325H1.33326H1.33328H1.33329H1.3333H1.33331H1.33333H1.33334H1.33335H1.33336H1.33338H1.33339H1.3334H1.33341H1.33343H1.33344H1.33345H1.33346H1.33348H1.33349H1.3335H1.33351H1.33353H1.33354H1.33355H1.33356H1.33358H1.33359H1.3336H1.33361H1.33363H1.33364H1.33365H1.33367H1.33368H1.33369H1.3337H1.33372H1.33373H1.33374H1.33375H1.33377H1.33378H1.33379H1.3338H1.33382H1.33383H1.33384H1.33385H1.33387H1.33388H1.33389H1.3339L1.33392 15.2827L1.3349 15.2827L13.5388 15.0432C18.1187 14.9538 22.1715 14.762 25.2379 13.3026C26.921 12.5019 28.2011 11.3807 29.1477 9.87609C30.1786 8.23824 30.7952 6.18318 31.0342 3.59687C31.1083 2.79904 30.9221 2.16642 30.4595 1.67096L30.423 1.70508L30.4595 1.67095C29.9561 1.13196 29.2751 0.881174 28.5429 0.966266L28.5429 0.966267C23.3769 1.56773 12.0531 1.82968 8.70434 1.89592L8.44847 1.9L8.44837 1.90001L8.43541 1.90024C7.4293 1.91844 6.71895 1.93128 6.15179 2.25311C5.57914 2.57806 5.16092 3.21171 4.71458 4.44374L4.71458 4.44374L0.972228 14.7763L0.972227 14.7762L0.972125 14.7765C0.930621 14.8933 0.947985 15.0237 1.02025 15.1246Z" fill="#5B5B5B" stroke="#5B5B5B" stroke-width="0.1"/>
+                <path d="M28.1074 3.90907C27.7471 6.87282 26.7996 8.81902 25.1507 10.0253C23.8033 11.0112 21.8571 11.5299 19.8196 11.809C17.7834 12.088 15.6634 12.1267 13.9724 12.1574L13.9723 12.1574L4.91744 12.3347L7.42027 5.42355C7.42028 5.42354 7.42028 5.42353 7.42029 5.42351C7.422 5.41883 7.42381 5.41384 7.42573 5.40857C7.47065 5.28524 7.57235 5.00603 7.67172 4.79422C7.92122 4.77573 8.25503 4.77482 8.49805 4.77415L8.5073 4.77413C8.50733 4.77413 8.50736 4.77413 8.50739 4.77413L8.50744 4.77413L28.1074 3.90907ZM28.1074 3.90907C25.3181 4.1992 22.4543 4.32197 19.6816 4.44084L19.6586 4.44183L19.6586 4.44183C16.2559 4.58648 12.6904 4.69494 8.76071 4.77204C8.7607 4.77204 8.76068 4.77204 8.76067 4.77204L28.1074 3.90907ZM4.06808 12.9428L4.06789 12.9426C3.99567 12.8413 3.97744 12.7108 4.02003 12.5942C4.02003 12.5942 4.02004 12.5942 4.02005 12.5942L6.71022 5.16628L6.71023 5.16625C6.81088 4.88891 6.9625 4.487 7.10736 4.24668C7.16498 4.15096 7.26201 4.08487 7.37239 4.06752L7.37252 4.0675C7.67349 4.02104 8.15736 4.01979 8.50583 4.01917L8.50592 4.01917L4.06808 12.9428ZM4.06808 12.9428C4.13963 13.0418 4.25359 13.1 4.3756 13.1H4.37561H4.37562H4.37563H4.37564H4.37565H4.37566H4.37567H4.37568H4.37569H4.3757H4.37571H4.37572H4.37574H4.37575H4.37576H4.37577H4.37578H4.37579H4.3758H4.37581H4.37582H4.37583H4.37584H4.37585H4.37586H4.37587H4.37589H4.3759H4.37591H4.37592H4.37593H4.37594H4.37595H4.37596H4.37597H4.37598H4.37599H4.376H4.37602H4.37603H4.37604H4.37605H4.37606H4.37607H4.37608H4.37609H4.3761H4.37611H4.37613H4.37614H4.37615H4.37616H4.37617H4.37618H4.37619H4.3762H4.37621H4.37622H4.37624H4.37625H4.37626H4.37627H4.37628H4.37629H4.3763H4.37631H4.37632H4.37634H4.37635H4.37636H4.37637H4.37638H4.37639H4.3764H4.37641H4.37642H4.37644H4.37645H4.37646H4.37647H4.37648H4.37649H4.3765H4.37651H4.37653H4.37654H4.37655H4.37656H4.37657H4.37658H4.37659H4.3766H4.37662H4.37663H4.37664H4.37665H4.37666H4.37667H4.37668H4.3767H4.37671H4.37672H4.37673H4.37674H4.37675H4.37676H4.37678H4.37679H4.3768H4.37681H4.37682H4.37683H4.37684H4.37686H4.37687H4.37688H4.37689H4.3769H4.37691H4.37692H4.37694H4.37695H4.37696H4.37697H4.37698H4.37699H4.37701H4.37702H4.37703H4.37704H4.37705H4.37706H4.37708H4.37709H4.3771H4.37711H4.37712H4.37713H4.37715H4.37716H4.37717H4.37718H4.37719H4.3772H4.37722H4.37723H4.37724H4.37725H4.37726H4.37727H4.37729H4.3773H4.37731H4.37732H4.37733H4.37734H4.37736H4.37737H4.37738H4.37739H4.3774H4.37741H4.37743H4.37744H4.37745H4.37746H4.37747H4.37749H4.3775H4.37751H4.37752H4.37753H4.37755H4.37756H4.37757H4.37758H4.37759H4.3776H4.37762H4.37763H4.37764H4.37765H4.37766H4.37768H4.37769H4.3777H4.37771H4.37772H4.37774H4.37775H4.37776H4.37777H4.37778H4.3778H4.37781H4.37782H4.37783H4.37784H4.37786H4.37787H4.37788H4.37789H4.3779H4.37792H4.37793H4.37794H4.37795H4.37796H4.37798H4.37799H4.378H4.37801H4.37802H4.37804H4.37805H4.37806H4.37807H4.37808H4.3781H4.37811H4.37812H4.37813H4.37815H4.37816H4.37817H4.37818H4.37819H4.37821H4.37822H4.37823H4.37824H4.37825H4.37827H4.37828H4.37829H4.3783H4.37832H4.37833H4.37834H4.37835H4.37836H4.37838H4.37839H4.3784H4.37841H4.37843H4.37844H4.37845H4.37846H4.37847H4.37849H4.3785H4.37851H4.37852H4.37854H4.37855H4.37856H4.37857H4.37858H4.3786H4.37861H4.37862H4.37863H4.37865H4.37866H4.37867H4.37868H4.3787H4.37871H4.37872H4.37873H4.37874H4.37876H4.37877H4.37878H4.37879H4.37881H4.37882H4.37883H4.37884H4.37886H4.37887H4.37888H4.37889H4.3789H4.37892H4.37893H4.37894H4.37895H4.37897H4.37898H4.37899H4.379H4.37902H4.37903H4.37904H4.37905H4.37907H4.37908H4.37909H4.3791H4.37912H4.37913H4.37914H4.37915H4.37917H4.37918H4.37919H4.3792H4.37922H4.37923H4.37924H4.37925H4.37926H4.37928H4.37929H4.3793H4.37931H4.37933H4.37934H4.37935H4.37936H4.37938H4.37939H4.3794H4.37941H4.37943H4.37944H4.37945H4.37946H4.37948H4.37949H4.3795H4.37951H4.37953H4.37954H4.37955H4.37956H4.37958H4.37959H4.3796H4.37961H4.37963H4.37964H4.37965H4.37966H4.37968H4.37969H4.3797H4.37972H4.37973H4.37974H4.37975H4.37977H4.37978H4.37979H4.3798H4.37982H4.37983H4.37984H4.37985H4.37987H4.37988H4.37989H4.3799H4.37992H4.37993H4.37994H4.37995H4.37997H4.37998H4.37999H4.38H4.38002H4.38003H4.38004H4.38005H4.38007H4.38008H4.38009H4.3801H4.38012H4.38013H4.38014H4.38016H4.38017H4.38018H4.38019H4.38021H4.38022H4.38023H4.38024H4.38026H4.38027H4.38028H4.38029H4.38031H4.38032H4.38033H4.38034H4.38036H4.38037H4.38038H4.38039H4.38041H4.38042H4.38043H4.38045H4.38046H4.38047H4.38048H4.3805H4.38051H4.38052H4.38053H4.38055H4.38056H4.38057H4.38058H4.3806H4.38061H4.38062H4.38063H4.38065H4.38066H4.38067H4.38069H4.3807H4.38071H4.38072H4.38074H4.38075H4.38076H4.38077H4.38079H4.3808H4.38081H4.38082H4.38084H4.38085H4.38086H4.38087H4.38089H4.3809H4.38091H4.38092H4.38094H4.38095H4.38096H4.38098H4.38099H4.381H4.38101H4.38103H4.38104H4.38105H4.38106H4.38108H4.38109H4.3811H4.38111H4.38113H4.38114H4.38115H4.38116H4.38118H4.38119H4.3812H4.38122H4.38123H4.38124H4.38125H4.38127H4.38128H4.38129H4.3813H4.38132H4.38133H4.38134H4.38135H4.38137H4.38138H4.38139H4.3814H4.38142H4.38143H4.38144H4.38145H4.38147H4.38148H4.38149H4.38151H4.38152H4.38153H4.38154H4.38156H4.38157H4.38158H4.38159H4.38161H4.38162H4.38163H4.38164H4.38166H4.38167H4.38168H4.38169H4.38171H4.38172H4.38173H4.38174L4.38176 13.1L4.38274 13.1L13.498 12.9213L13.4981 12.9213L13.9855 12.9124L13.9883 12.9123C15.7198 12.8806 17.8966 12.8408 20.0011 12.545C22.1058 12.2492 24.1452 11.6967 25.5966 10.6348L25.5671 10.5945L25.5966 10.6348C27.4963 9.24426 28.5772 6.91241 28.9095 3.52068L28.9096 3.52061C28.9205 3.40692 28.8806 3.29516 28.7994 3.21485C28.7183 3.13455 28.606 3.09602 28.492 3.10859L28.492 3.10859M4.06808 12.9428L28.492 3.10859M28.492 3.10859C25.5763 3.43287 22.5562 3.56181 19.6339 3.68657L19.6263 3.68689L19.6285 3.73684M28.492 3.10859L19.6285 3.73684M19.6285 3.73684L19.6263 3.68689C16.2291 3.8322 12.6703 3.94001 8.74598 4.01779L19.6285 3.73684Z" fill="#5B5B5B" stroke="#5B5B5B" stroke-width="0.1"/>
+              </svg>
+            </div>
+            <span>СТЕКЛА ФАР</span>
+          </li>
+          <li class="catalog__list_item">
+            <div class="catalog__list_icon">
+              <svg width="31" height="18" viewBox="0 0 31 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.0679 16.5864L4.7507 15.6352C4.6088 15.6251 4.46508 15.6326 4.32328 15.644C2.19371 15.8164 1.78567 13.7617 1.88529 12.1101C1.92343 11.4777 1.69392 10.8408 1.18706 10.4606C0.512581 9.95476 0.329651 9.02091 0.763419 8.29796L0.81729 8.20818C1.22733 7.52477 2.04518 7.20186 2.8115 7.42081L3.61292 7.64979C4.46103 7.89211 5.36775 7.55022 5.84472 6.80826L8.84844 2.13581C9.28965 1.44949 10.1035 1.09998 10.905 1.25265L19.3622 2.86355C19.877 2.96161 20.4098 2.85368 20.8458 2.56297L22.2653 1.61665C22.8405 1.23318 23.573 1.17395 24.2023 1.46002L28.5088 3.41748C28.6595 3.48602 28.8029 3.57162 28.9269 3.68141C30.3333 4.9266 30.1127 6.22747 29.6367 7.03542C29.4207 7.40193 29.2084 7.78418 29.1284 8.20197C28.2852 12.6043 26.3261 13.083 24.4739 13.5356L24.4468 13.5422C24.2819 13.5826 24.1231 13.6446 23.9741 13.7259L19.1681 16.3473C18.8318 16.5307 18.45 16.6137 18.0679 16.5864Z" stroke="#5B5B5B"/>
+              </svg>
+            </div>
+            <span>КОРПУСА ФАР</span>
+          </li>
+          <li class="catalog__list_item">
+            <div class="catalog__list_icon">
+              <svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30 1.5C30 1.10218 29.842 0.720644 29.5607 0.43934C29.2794 0.158035 28.8978 0 28.5 0H15.5C11.3905 0.00449977 7.45065 1.63898 4.54481 4.54482C1.63898 7.45065 0.00449977 11.3905 0 15.5L0 16.5C0 16.8978 0.158035 17.2794 0.43934 17.5607C0.720644 17.842 1.10218 18 1.5 18H14.5C18.6095 17.9955 22.5493 16.361 25.4552 13.4552C28.361 10.5493 29.9955 6.60947 30 2.5V1.5ZM14.5 17H1.5C1.36739 17 1.24021 16.9473 1.14645 16.8536C1.05268 16.7598 1 16.6326 1 16.5V15.5C1.0045 11.6557 2.53362 7.97022 5.25192 5.25192C7.97022 2.53362 11.6557 1.0045 15.5 1H24.3155C24.7155 1.367 26 2.7555 26 5.5V11.317C24.6484 13.0839 22.9079 14.5157 20.9135 15.5012C18.9192 16.4868 16.7246 16.9996 14.5 17ZM29 2.5C29.0024 5.08017 28.3117 7.6136 27 9.8355V5.5C27.0454 3.89214 26.5677 2.31299 25.6385 1H28.5C28.6326 1 28.7598 1.05268 28.8536 1.14645C28.9473 1.24021 29 1.36739 29 1.5V2.5Z" fill="#5B5B5B"/>
+                <path d="M8.5 6.5C7.60999 6.5 6.73996 6.76392 5.99994 7.25839C5.25991 7.75285 4.68314 8.45566 4.34254 9.27792C4.00195 10.1002 3.91283 11.005 4.08647 11.8779C4.2601 12.7508 4.68868 13.5526 5.31802 14.182C5.94736 14.8113 6.74918 15.2399 7.6221 15.4135C8.49501 15.5872 9.39981 15.4981 10.2221 15.1575C11.0443 14.8169 11.7471 14.2401 12.2416 13.5001C12.7361 12.76 13 11.89 13 11C12.9987 9.80693 12.5241 8.66311 11.6805 7.81948C10.8369 6.97585 9.69307 6.50132 8.5 6.5ZM8.5 14.5C7.80777 14.5 7.13108 14.2947 6.55551 13.9101C5.97993 13.5256 5.53133 12.9789 5.26642 12.3394C5.00152 11.6999 4.93221 10.9961 5.06725 10.3172C5.2023 9.63825 5.53564 9.01461 6.02513 8.52513C6.51461 8.03564 7.13825 7.7023 7.81719 7.56725C8.49612 7.4322 9.19985 7.50151 9.83939 7.76642C10.4789 8.03133 11.0256 8.47993 11.4101 9.0555C11.7947 9.63108 12 10.3078 12 11C11.9988 11.9279 11.6297 12.8174 10.9736 13.4736C10.3174 14.1297 9.42789 14.4988 8.5 14.5Z" fill="#5B5B5B"/>
+                <path d="M8.5 8.5C8.00555 8.5 7.5222 8.64662 7.11108 8.92133C6.69995 9.19603 6.37952 9.58648 6.1903 10.0433C6.00108 10.5001 5.95157 11.0028 6.04804 11.4877C6.1445 11.9727 6.3826 12.4181 6.73223 12.7678C7.08187 13.1174 7.52732 13.3555 8.01228 13.452C8.49723 13.5484 8.9999 13.4989 9.45671 13.3097C9.91353 13.1205 10.304 12.8 10.5787 12.3889C10.8534 11.9778 11 11.4945 11 11C10.9992 10.3372 10.7356 9.70178 10.2669 9.23311C9.79822 8.76444 9.1628 8.50079 8.5 8.5ZM8.5 12.5C8.20333 12.5 7.91332 12.412 7.66665 12.2472C7.41997 12.0824 7.22771 11.8481 7.11418 11.574C7.00065 11.2999 6.97095 10.9983 7.02882 10.7074C7.0867 10.4164 7.22956 10.1491 7.43934 9.93934C7.64912 9.72956 7.91639 9.5867 8.20737 9.52882C8.49834 9.47094 8.79994 9.50065 9.07403 9.61418C9.34812 9.72771 9.58238 9.91997 9.74721 10.1666C9.91203 10.4133 10 10.7033 10 11C10 11.3978 9.84197 11.7794 9.56066 12.0607C9.27936 12.342 8.89783 12.5 8.5 12.5Z" fill="#5B5B5B"/>
+                <path d="M19.5 2.5C18.4122 2.5 17.3488 2.82257 16.4444 3.42692C15.5399 4.03127 14.8349 4.89025 14.4187 5.89524C14.0024 6.90023 13.8935 8.0061 14.1057 9.073C14.3179 10.1399 14.8417 11.1199 15.6109 11.8891C16.3801 12.6583 17.3601 13.1821 18.427 13.3943C19.4939 13.6065 20.5998 13.4976 21.6048 13.0813C22.6098 12.6651 23.4687 11.9601 24.0731 11.0556C24.6774 10.1512 25 9.0878 25 8C24.9983 6.54184 24.4183 5.14389 23.3872 4.11281C22.3561 3.08174 20.9582 2.50172 19.5 2.5ZM19.5 12.5C18.61 12.5 17.74 12.2361 16.9999 11.7416C16.2599 11.2471 15.6831 10.5443 15.3425 9.72208C15.0019 8.89981 14.9128 7.99501 15.0865 7.12209C15.2601 6.24918 15.6887 5.44736 16.318 4.81802C16.9474 4.18868 17.7492 3.7601 18.6221 3.58647C19.495 3.41283 20.3998 3.50195 21.2221 3.84254C22.0443 4.18314 22.7472 4.75991 23.2416 5.49993C23.7361 6.23996 24 7.10998 24 8C23.9987 9.19307 23.5241 10.3369 22.6805 11.1805C21.8369 12.0241 20.6931 12.4987 19.5 12.5Z" fill="#5B5B5B"/>
+                <path d="M19.5 4.5C18.8078 4.5 18.1311 4.70527 17.5555 5.08986C16.9799 5.47444 16.5313 6.02107 16.2664 6.66061C16.0015 7.30015 15.9322 8.00388 16.0673 8.68282C16.2023 9.36175 16.5356 9.98539 17.0251 10.4749C17.5146 10.9644 18.1383 11.2977 18.8172 11.4327C19.4961 11.5678 20.1999 11.4985 20.8394 11.2336C21.4789 10.9687 22.0256 10.5201 22.4101 9.9445C22.7947 9.36892 23 8.69223 23 8C22.9988 7.07211 22.6297 6.18256 21.9736 5.52644C21.3174 4.87032 20.4279 4.50119 19.5 4.5ZM19.5 10.5C19.0055 10.5 18.5222 10.3534 18.1111 10.0787C17.7 9.80397 17.3795 9.41352 17.1903 8.95671C17.0011 8.49989 16.9516 7.99723 17.048 7.51227C17.1445 7.02732 17.3826 6.58186 17.7322 6.23223C18.0819 5.8826 18.5273 5.6445 19.0123 5.54804C19.4972 5.45157 19.9999 5.50108 20.4567 5.6903C20.9135 5.87952 21.304 6.19995 21.5787 6.61107C21.8534 7.0222 22 7.50555 22 8C21.9992 8.6628 21.7356 9.29822 21.2669 9.76689C20.7982 10.2356 20.1628 10.4992 19.5 10.5Z" fill="#5B5B5B"/>
+              </svg>
+            </div>
+            <span>ФАРЫ</span>
+          </li>
+          <li class="catalog__list_item">
+            <div class="catalog__list_icon">
+              <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.59 8.75613L19.4879 25.5213C19.7469 27.8098 17.9516 29.825 15.644 29.825H3.75C1.77888 29.825 0.175 28.2211 0.175 26.25V3.75C0.175 1.77888 1.77888 0.175 3.75 0.175H7.98264C12.9059 0.175 17.0361 3.86401 17.59 8.75613ZM3.75 28.3H15.644C16.9364 28.3 17.9875 27.2489 17.9875 25.9566C17.9875 25.9451 17.9878 25.9373 17.9881 25.9302C17.9905 25.8705 17.9912 25.8537 17.7918 24.0862C17.6859 23.1475 17.5234 21.7137 17.2744 19.5169C16.9962 17.0634 16.6102 13.6581 16.0747 8.9277C15.6082 4.80734 12.1293 1.7 7.98264 1.7H3.75C2.61946 1.7 1.7 2.61946 1.7 3.75V26.25C1.7 27.3805 2.61946 28.3 3.75 28.3Z" fill="#5B5B5B" stroke="white" stroke-width="0.35"/>
+                <path d="M14.825 9.84375C14.825 13.1072 12.1697 15.7625 8.90625 15.7625C5.64278 15.7625 2.9875 13.1072 2.9875 9.84375C2.9875 6.58028 5.64278 3.925 8.90625 3.925C12.1697 3.925 14.825 6.58028 14.825 9.84375ZM13.3 9.84375C13.3 7.42087 11.3291 5.45 8.90625 5.45C6.48337 5.45 4.5125 7.42087 4.5125 9.84375C4.5125 12.2666 6.48337 14.2375 8.90625 14.2375C11.3291 14.2375 13.3 12.2666 13.3 9.84375Z" fill="#5B5B5B" stroke="white" stroke-width="0.35"/>
+                <path d="M9.66875 11.7188C9.66875 12.1398 9.32733 12.4812 8.90625 12.4812C7.4521 12.4812 6.26875 11.2979 6.26875 9.84375C6.26875 8.3896 7.4521 7.20625 8.90625 7.20625C10.3604 7.20625 11.5438 8.3896 11.5438 9.84375C11.5438 10.2648 11.2023 10.6063 10.7813 10.6063C10.3602 10.6063 10.0187 10.2648 10.0187 9.84375C10.0187 9.23019 9.51981 8.73125 8.90625 8.73125C8.29269 8.73125 7.79375 9.23019 7.79375 9.84375C7.79375 10.4573 8.29269 10.9562 8.90625 10.9562C9.32733 10.9562 9.66875 11.2977 9.66875 11.7188Z" fill="#5B5B5B" stroke="white" stroke-width="0.35"/>
+                <path d="M14.6979 22.4361H14.7063V22.2611V20.8639C14.7063 19.8601 13.8899 19.0437 12.8861 19.0437H6.44719C5.38023 19.0437 4.5125 19.9114 4.5125 20.9784V22.1466C4.5125 23.2135 5.38023 24.0813 6.44719 24.0813H12.8861C13.8308 24.0813 14.6096 23.358 14.6979 22.4361ZM6.44719 17.5187H12.8861C14.7304 17.5187 16.2313 19.0196 16.2313 20.8639V22.2611C16.2313 24.1055 14.7305 25.6063 12.8861 25.6063H6.44719C4.53964 25.6063 2.9875 24.0542 2.9875 22.1466V20.9784C2.9875 19.0709 4.53964 17.5187 6.44719 17.5187Z" fill="#5B5B5B" stroke="white" stroke-width="0.35"/>
+                <path d="M7.03125 20.8H12.1875C12.6086 20.8 12.95 21.1414 12.95 21.5625C12.95 21.9836 12.6086 22.325 12.1875 22.325H7.03125C6.61017 22.325 6.26875 21.9836 6.26875 21.5625C6.26875 21.1414 6.61017 20.8 7.03125 20.8Z" fill="#5B5B5B" stroke="white" stroke-width="0.35"/>
+              </svg>
+            </div>
+            <span>ЗАДНИЕ ФОНАРИ</span>
+          </li>
+          <li class="catalog__list_item">
+            <div class="catalog__list_icon">
+              <svg width="27" height="32" viewBox="0 0 27 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.73494 1.77289H24.4217C24.8821 1.77289 25.2392 2.0823 25.2392 2.44578V29.5542C25.2392 29.9177 24.8821 30.2271 24.4217 30.2271H2.73494C2.27454 30.2271 1.91747 29.9177 1.91747 29.5542V2.44578C1.91747 2.0823 2.27454 1.77289 2.73494 1.77289ZM2.73494 0.95C1.75807 0.95 0.95 1.61154 0.95 2.44578V29.5542C0.95 30.3885 1.75807 31.05 2.73494 31.05H24.4217C25.3986 31.05 26.2066 30.3885 26.2066 29.5542V2.44578C26.2066 1.61154 25.3986 0.95 24.4217 0.95H2.73494Z" fill="#5B5B5B" stroke="#5B5B5B" stroke-width="0.1"/>
+                <path d="M5 1.7229H6.2V30.2771H5V1.7229Z" fill="#5B5B5B"/>
+                <path d="M21.0532 1.7229H22.2532V30.2771H21.0532V1.7229Z" fill="#5B5B5B"/>
+              </svg>
+            </div>
+            <span>БЛОК</span>
+          </li>
+          <li class="catalog__list_item">
+            <div class="catalog__list_icon">
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 0C6.71584 0 0 6.71584 0 15C0 23.2842 6.71584 30 15 30C23.2842 30 30 23.2842 30 15C29.9903 6.71962 23.2804 0.00968685 15 0ZM15 29.0323C7.25027 29.0323 0.967742 22.7497 0.967742 15C0.967742 7.25027 7.25027 0.967742 15 0.967742C22.7497 0.967742 29.0323 7.25027 29.0323 15C29.0238 22.7462 22.7462 29.0238 15 29.0323Z" fill="#5B5B5B"/>
+                <path d="M15.0001 1.93542C7.78476 1.93542 1.93555 7.78464 1.93555 14.9999C1.93555 22.2152 7.78476 28.0645 15.0001 28.0645C22.2154 28.0645 28.0646 22.2152 28.0646 14.9999C28.0565 7.78795 22.2121 1.94346 15.0001 1.93542ZM15.0001 27.0967C8.31919 27.0967 2.90329 21.6808 2.90329 14.9999C2.90329 8.31907 8.31919 2.90317 15.0001 2.90317C21.6809 2.90317 27.0968 8.31907 27.0968 14.9999C27.0893 21.6777 21.6779 27.0892 15.0001 27.0967Z" fill="#5B5B5B"/>
+                <path d="M15.0002 6.29028C10.1901 6.29028 6.29053 10.1898 6.29053 15C6.29053 19.8101 10.1901 23.7096 15.0002 23.7096C19.8103 23.7096 23.7099 19.8101 23.7099 15C23.7042 10.192 19.8082 6.29595 15.0002 6.29028ZM15.0002 22.7419C10.7245 22.7419 7.25827 19.2756 7.25827 15C7.25827 10.7243 10.7245 7.25803 15.0002 7.25803C19.2759 7.25803 22.7421 10.7243 22.7421 15C22.7372 19.2735 19.2738 22.7369 15.0002 22.7419Z" fill="#5B5B5B"/>
+                <path d="M14.9999 8.22583C14.2923 8.22512 13.5889 8.33546 12.9154 8.55235C12.6883 8.62536 12.5484 8.85288 12.5855 9.08844C12.6226 9.32399 12.826 9.49741 13.0644 9.49694C13.115 9.4967 13.1653 9.48891 13.2135 9.47379C13.7907 9.28761 14.3934 9.19287 14.9999 9.19358C15.2671 9.19358 15.4838 8.97692 15.4838 8.7097C15.4838 8.44249 15.2671 8.22583 14.9999 8.22583Z" fill="#5B5B5B"/>
+                <path d="M11.3883 9.26798C9.41544 10.5048 8.21994 12.6716 8.22561 15C8.22561 15.2672 8.44226 15.4839 8.70948 15.4839C8.97669 15.4839 9.19335 15.2672 9.19335 15C9.18815 13.0043 10.2124 11.147 11.9031 10.0864C12.0536 9.99591 12.1434 9.83147 12.1377 9.65592C12.1322 9.48062 12.0321 9.32208 11.8761 9.24152C11.7202 9.16095 11.5331 9.17111 11.3868 9.26798H11.3883Z" fill="#5B5B5B"/>
+              </svg>
+            </div>
+            <span>ВНУТРЕННИЕ ЭЛЕМЕНТЫ</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="catalog__right">
+        <div>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-audi/">Audi</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-audi-a3/">A3</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-audi-a4/">A4</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-audi-a5/">A5</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-audi-a6/">A6</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-audi-a7/">A7</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-audi-a8/">A8</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-audi-q3/">Q3</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-audi-q5/">Q5</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-audi-q7/">Q7</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-audi-q8/">Q8</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-chrysler/">Chrysler</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">300С 2004-2011</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-geely/">Geely</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-geely-atlas-i-2016-n-v/">Atlas I 2016-н.в</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-hyundai/">Hyundai</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-hyundai-creta/">Creta</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-hyundai-elantra/">Elantra</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-hyundai-h1/">H1</a></li>
+              <li class="menu_item"><a href="#">IX 35</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-hyundai-santa-fe/">Santa Fe </a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-hyundai-solaris/">Solaris</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-hyundai-sonata/">Sonata </a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-hyundai-tucson/">Tucson</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-jeep/">Jeep</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-jeep-compas/">Compas</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-jeep-grand-cherokee/">Grand Cherokee</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-lexus/">Lexus</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-lexus-es/">ES</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-lexus-gs/">GS</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-lexus-gx/">GX</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-lexus-is/">IS</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-lexus-ls/">LS</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-lexus-lx/">LX</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-lexus-nx/">NX</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-lexus-rx/">RX</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz/">Mercedes-Benz</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-a-klasse/">A klasse </a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-b-klasse/">B klasse </a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-cla/">CLA</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-cls/">CLS</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-c-klasse/">C klasse </a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-e-klasse/">E klasse</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-gla/">GLA</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-glb/">GLB</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-glc/">GLC</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-gle/">GLE</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-glk/">GLK</a></li>
+              <li class="d menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-gls/">GLS</a></li>
+              <li class="d menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-gl-klasse/">GL klasse</a></li>
+              <li class="d menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-g-klasse-gelandewagen/">G klasse Gelandewagen</a></li>
+              <li class="d menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-m-klasse/">M klasse</a></li>
+              <li class="d menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-s-klasse/">S klasse</a></li>
+              <li class="d menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-sprinter/">Sprinter</a></li>
+              <li class="d menu_item"><a href="https://mirfar.com/catalog/stekla-far-mercedes-benz-vito/">Vito</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Nissan</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Murano</a></li>
+              <li class="menu_item"><a href="#">Patrol</a></li>
+              <li class="menu_item"><a href="#">Qashqai</a></li>
+              <li class="menu_item"><a href="#">Teana</a></li>
+              <li class="menu_item"><a href="#">Teana</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Renault</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Koleos</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Subaru</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Forester</a></li>
+              <li class="menu_item"><a href="#">Outback</a></li>
+              <li class="menu_item"><a href="#">XV</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Volkswagen</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Golf</a></li>
+              <li class="menu_item"><a href="#">Jetta</a></li>
+              <li class="menu_item"><a href="#">Passat</a></li>
+              <li class="menu_item"><a href="#">Polo</a></li>
+              <li class="menu_item"><a href="#">Scirocco</a></li>
+              <li class="menu_item"><a href="#">Tiguan</a></li>
+              <li class="menu_item"><a href="#">Touareg</a></li>
+            </div>
+          </ul>
+        </div>
+        <div>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-bmw/">BMW</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-1-series/">1 Series</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-2-series-grand-tourer/">2 Series Grand Tourer </a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-3-series/">3 Series</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-4-series/">4 series</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-5-series/">5 Series</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-6-series/">6 series</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-7-series/">7 Series</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-x1/">X1</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-x2/">X2</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-x3-x4/">X3/X4</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-x5-x6/">X5/X6 </a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-x7/">X7</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-bmw-z4/">Z4</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-dodge/">Dodge</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Charger 2014-н.в</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-haval/">Haval</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-haval-f7-f7x/">F7/F7x</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-infiniti/">Infiniti</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-infiniti-ex-j50-2007-2013/">EX (J50) 2007-2013</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-infiniti-fx-qx70-s51-2008-2017/">FX/QX70 (S51) 2008-2017</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-infiniti-g-iv-2010-2013-restayling-v36/">G (IV) 2010-2013 Рестайлинг (V36)</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-infiniti-q50-2013-n-v/">Q50 2013-н.в</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-infiniti-qx80-2013-2017/">QX80 2013-2017 </a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-kia/">KIA</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-kia-cerato/">Cerato</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-kia-k5/">K5</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-kia-optima/">Optima</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-kia-rio/">Rio</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-kia-seltos/">Seltos</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-kia-sorento/">Sorento</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-kia-sportage/">Sportage</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-maserati/">Maserati</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-maserati-ghibli-2013-2016/">Ghibli 2013-2016</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-maserati-quattroporte-vl/">Quattroporte Vl </a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Mini Cooper</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Mini Countryman I 2010-2016</a></li>
+              <li class="menu_item"><a href="#">Mini Hatch F56 2013-2018</a></li>
+              <li class="menu_item"><a href="#">Mini Hatch R56 2006-2013</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Opel</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Astra</a></li>
+              <li class="menu_item"><a href="#">Insignia</a></li>
+              <li class="menu_item"><a href="#">Mokka</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Skoda</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Octavia</a></li>
+              <li class="menu_item"><a href="#">Superb</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Tesla</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Tesla Model 3 2017-н.в</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Volvo</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">S80/XC70 2006-2016</a></li>
+              <li class="menu_item"><a href="#">XC60 2008-2013</a></li>
+              <li class="menu_item"><a href="#">XC60 2013-2017 Рестайлинг</a></li>
+              <li class="menu_item"><a href="#">XC60 2017-2021</a></li>
+              <li class="menu_item"><a href="#">XC90 2002-2014</a></li>
+            </div>
+          </ul>
+        </div>
+        <div>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-cadillac/">Cadillac</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-cadillac-cts/">CTS</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-cadillac-srx/">SRX</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-cadillac-xt5/">XT5</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-cadillac-xts/">XTS</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-ford/">Ford</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Focus 3 2014-2019 Рестайлинг</a></li>
+              <li class="menu_item"><a href="#">Kuga II 2012-2016</a></li>
+              <li class="menu_item"><a href="#">Kuga II 2016-2019</a></li>
+              <li class="menu_item"><a href="#">Mondeo V 2014-2019</a></li>
+              <li class="menu_item"><a href="#">Mustang VI 2014-2017 Дорестайлинг</a></li>
+              <li class="menu_item"><a href="#">Mustang VI 2017-н.в Рестайлинг</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-honda/">Honda</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-honda-accord/">Accord</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-honda-cr-v/">CR-V</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-honda-civic/">Civic</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-honda-crosstour/">Crosstour</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-jaguar/">Jaguar</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-jaguar-xe/">XE</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-jaguar-xf/">XF</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-jaguar-xj/">XJ</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-land-rover/">Land Rover</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-land-rover-discovery/">Discovery</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-land-rover-freelander/">Freelander</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-land-rover-range-rover/">Range Rover</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="https://mirfar.com/catalog/stekla-far-mazda/">Mazda</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mazda-cx-5/">CX-5</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mazda-cx-7/">CX-7</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mazda-mazda-3/">Mazda 3</a></li>
+              <li class="menu_item"><a href="https://mirfar.com/catalog/stekla-far-mazda-mazda-6/">Mazda 6</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Mitsubishi</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">ASX</a></li>
+              <li class="menu_item"><a href="#">ASX</a></li>
+              <li class="menu_item"><a href="#">Outlander</a></li>
+              <li class="menu_item"><a href="#">Pajero Sport</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Porsche</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">911</a></li>
+              <li class="menu_item"><a href="#">Cayenne</a></li>
+              <li class="menu_item"><a href="#">Cayman/Boxter</a></li>
+              <li class="menu_item"><a href="#">Macan</a></li>
+              <li class="menu_item"><a href="#">Panamera</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Smart</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Fortwo/Forfour</a></li>
+            </div>
+          </ul>
+          <ul class="catalog__right__list">
+            <li class="menu_title"><a href="#">Toyota</a></li>
+            <div class="catalog__right__list__inner">
+              <li class="menu_item"><a href="#">Camry</a></li>
+              <li class="menu_item"><a href="#">Corolla</a></li>
+              <li class="menu_item"><a href="#">Fortuner</a></li>
+              <li class="menu_item"><a href="#">Highlander</a></li>
+              <li class="menu_item"><a href="#">Hilux</a></li>
+              <li class="menu_item"><a href="#">Land Cruiser</a></li>
+              <li class="menu_item"><a href="#">Land Cruiser Prado</a></li>
+              <li class="menu_item"><a href="#">Prius</a></li>
+              <li class="menu_item"><a href="#">RAV4</a></li>
+              <li class="menu_item"><a href="#">Tundra</a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="js/catalog.js"></script>
 </body>
 </html>
