@@ -503,6 +503,7 @@ li {
   max-width: 1255px;
   padding-top: 18px;
   transition: .3s ease;
+  z-index: 10;
 }
 
 .header__down ul.menu .menu__drop-down .menu__drop-down__wrapper {
@@ -512,6 +513,7 @@ li {
   padding: 28px 20px 16px;
   border: 1px solid #EDEDED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  background: #FFFFFF;
 }
 
 .header__down ul.menu .menu__drop-down .menu__drop-down__wrapper .menu__drop-down__main {

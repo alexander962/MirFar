@@ -1,10 +1,11 @@
 jQuery(document).ready(function() {
-  let linksArray = Array.from($(".catalog__list_item"));
-  linksArray.map((item, index) => {
-    $(item).hover(function () {
-        let elemActive = $(this);
+  let linksArray = $(".catalog__list_item");
+  linksArray.each((_, item) => {
+    {var $elem = $(item);}
+    $elem.hover((e) => {
+      let $elemActive = $(e.currentTarget);
         for (let i = 0; i < linksArray.length; i++) {
-          if (elemActive[0] === linksArray[i]) {
+          if ($elemActive[0] === linksArray[i]) {
             linksArray[i].classList.add("active")
           } else {
             linksArray[i].classList.remove("active")

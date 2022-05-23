@@ -1,5 +1,6 @@
 @import "header.css";
 @import "catalog.css";
+@import "sidebar.css";
 
 html.block {
   overflow: hidden;

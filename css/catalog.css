@@ -2,7 +2,9 @@
   display: none;
   position: absolute;
   width: 100%;
-  top: 248px;
+  top: 249px;
+  z-index: 9;
+  background: #FFFFFF;
 }
 
 .visible {
