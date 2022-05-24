@@ -10,7 +10,6 @@ jQuery(document).ready(function() {
   });
 
   $(".mobile-menu__item").on("click", () => {
-    $(".mobile-overlay").removeClass("mobile-overlay__visible");
     $(".mobile-menu").removeClass("mobile-menu__loaded");
   });
 
