@@ -1,0 +1,234 @@
+.mobile-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100%;
+  height: auto!important;
+  z-index: 9;
+  background: rgba(255,255,255,.9);
+}
+
+.mobile-overlay__visible {
+  display: block;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 590px;
+  height: 100%;
+  transition: all .3s;
+  overflow: hidden;
+  transform: translateX(-590px);
+  background: #ffffff;
+  z-index: 999;
+}
+
+.mobile-menu__loaded {
+  transform: translateX(0);
+}
+
+.mobile-menu__content {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  max-height: 100%;
+  padding-bottom: 30px;
+}
+
+.mobile-menu__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 8px 11px 8px 20px;
+  background: #383838;
+}
+
+.mobile-menu__country-block {
+  position: relative;
+}
+
+.mobile-menu__country_text {
+  font: 400 10px/11px 'Ubuntu';
+  color: #BABABA;
+  margin-bottom: 4px;
+}
+
+.mobile-menu__country_current {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-menu__country_name {
+  font: 400 16px/18px 'Ubuntu';
+  color: #FFFFFF;
+  margin-left: 5px;
+  border-bottom: 1px dashed #FFFFFF;
+}
+
+.mobile-menu__list {
+  padding-left: 15px;
+}
+
+.mobile-menu__item {
+  display: flex;
+  align-items: center;
+  font: 400 18px/21px 'Ubuntu';
+  color: #5B5B5B;
+  padding: 14px 0;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.mobile-menu__list li a {
+  display: block;
+  width: 100%;
+  font: 400 18px/21px 'Ubuntu';
+  color: #5B5B5B;
+}
+
+.mobile-menu__item svg {
+  margin-right: 10px;
+}
+
+.mobile-menu__phone {
+  display: flex;
+  flex-direction: column;
+  padding: 0 12px;
+  margin-top: 38px;
+}
+
+.mobile-menu__phone_item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 9px;
+}
+
+.mobile-menu__phone_item a {
+  font: 500 24px/32px Ubuntu;
+  color: #383838;
+}
+
+.mobile-menu__phone_item span {
+  font: 400 17px/100% Ubuntu;
+  color: #979797;
+}
+
+.mobile-catalog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 590px;
+  height: 100%;
+  transition: all .3s;
+  overflow: hidden;
+  transform: translateX(-590px);
+  background: #ffffff;
+  z-index: 1000;
+}
+
+.mobile-catalog__loaded {
+  transform: translateX(0);
+}
+
+.mobile-catalog__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E35910;
+  padding: 14px;
+}
+
+.mobile-catalog__top span {
+  font: 400 16px/18px  'Ubuntu';
+  color: #FFFFFF;
+}
+
+.mobile-catalog__list {
+  padding: 0 15px;
+}
+
+.mobile-catalog__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.mobile-catalog__block {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-catalog__block span {
+  font: 400 16px/18px 'Ubuntu';
+  color: #5B5B5B;
+}
+
+.mobile-catalog__item_active .mobile-catalog__block span {
+  color: #DF570E;
+}
+
+.mobile-catalog__item_active svg path {
+  fill: #DF570E;
+}
+
+.mobile-catalog__block svg {
+  margin-right: 10px;
+}
+
+.mobile-brands {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 590px;
+  height: 100%;
+  transition: all .3s;
+  overflow: hidden;
+  transform: translateX(-590px);
+  background: #ffffff;
+  z-index: 1100;
+}
+
+.mobile-brands__loaded {
+  transform: translateX(0);
+  overflow-y: scroll;
+  padding-bottom: 20px;
+}
+
+.mobile-brands__loaded::-webkit-scrollbar {
+  width: 0;
+}
+
+.mobile-brands__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E35910;
+  padding: 14px;
+}
+
+.mobile-brands__top span {
+  font: 400 16px/18px 'Ubuntu';
+  color: #FFFFFF;
+}
+
+.mobile-brands__list {
+  overflow-y: scroll;
+  padding: 0 15px;
+}
+
+.mobile-brands__list li a {
+  display: block;
+  font: 400 16px/18px 'Ubuntu';
+  color: #5B5B5B;
+  padding: 15px 0;
+  border-bottom: 1px solid #E3E3E3;
+}
