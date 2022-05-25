@@ -180,7 +180,13 @@
 
 .header__center_logo {
   margin-right: 63px;
+  max-width: 197px;
 }
+
+.header__center_logo img {
+  width: 100%;
+}
+
 
 .header__center .search-block {
   width: 100%;

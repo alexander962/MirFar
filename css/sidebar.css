@@ -79,3 +79,13 @@
 .content__submenu_item:hover span {
   color: #E35910;
 }
+
+@media screen and (max-width: 1024px) {
+  .content__menu {
+    display: none;
+  }
+
+  .content__main {
+    width: 100%;
+  }
+}
